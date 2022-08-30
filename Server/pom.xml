@@ -11,11 +11,20 @@
     <artifactId>Server</artifactId>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.3</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>edu.sdccd.cisc191.template</groupId>
             <artifactId>Common</artifactId>
-            <version>${project.version}</version>
+            <version>1.0.0</version>
+            <scope>compile</scope>
         </dependency>
+
     </dependencies>
 
     <build>
